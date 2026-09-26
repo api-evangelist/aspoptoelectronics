@@ -1,0 +1,22 @@
+# Acquirezy
+
+> Acquirezy is a company, deal, and contact intelligence platform for investors, dealmakers, and researchers. It covers 5.4M companies, 200K+ M&A acquisitions, 700K+ funding rounds, 327K investors, 2M+ people, and 61M professional contacts — all searchable, filterable, and free to browse on the web.
+
+Data is free to explore. Paid plans (Pro $9/mo, Intelligence $29/mo) unblur funding/investor/web-traffic/contact data, add CSV export, contact unlocks, acquisition email alerts, and Chase AI.
+
+## Datasets
+- [Companies](https://acquirezy.com/datasets/companies): 5.4M companies — industries, HQ, employees, founding year, funding, IPO/stock, web traffic, technology, patents, and signal scores.
+- [Acquisitions](https://acquirezy.com/datasets/acquisitions): 200K+ M&A deals with acquirer, target, price (disclosed for ~15% of deals), type, and date.
+- [Funding Rounds](https://acquirezy.com/datasets/funding_rounds): 700K+ rounds with amounts, valuations, stages, and investors.
+- [Investors](https://acquirezy.com/datasets/investors): 327K VCs, PE firms, accelerators, and angels — portfolio, exits, and stages.
+- [People](https://acquirezy.com/datasets/people): 2M+ founders and executives with roles, companies, and investment activity.
+
+## Browse by entity
+- [Company profiles](https://acquirezy.com/organization/google-1177816): per-company M&A insights (totals, trends, top target sectors, biggest & latest deals), funding rounds, and full company details.
+- [Sectors](https://acquirezy.com/sector/software): acquisitions, funding, and active investors within an industry.
+- [Years](https://acquirezy.com/year/2024): the biggest M&A deals, largest funding rounds, and most active acquirers of a year.
+- [Directory](https://acquirezy.com/directory): index of all companies, sectors, and years.
+
+## About
+- [Pricing](https://acquirezy.com/#pricing): Free browsing of all data; Pro ($9/mo) and Intelligence ($29/mo) for export, unlocks, alerts, and Private Equity M&A Intelligence.
+- [Chase AI](https://acquirezy.com/chat): ask natural-language questions about M&A patterns, companies, funding, and investors (paid plans).

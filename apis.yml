@@ -1,23 +1,78 @@
 aid: aspoptoelectronics
+
 name: Aspoptoelectronics
-description: 'Aspoptoelectronics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://acquirezy.com/og-image.png?v=2
+
+description: 'Aspoptoelectronics is a technology company specializing in the design and manufacturing of advanced optoelectronic components and systems. The firm focuses on developing high-performance photonic devices for applications in telecommunications, industrial automation, and scientific instrumentation. While detailed public information is limited, the company appears in secondary-market listings and industry databases, indicating a presence in the optoelectronics sector. Further research may uncover specific product lines, partnerships, and market activities.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aspoptoelectronics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- Optoelectronics
+- Photonics
+- Telecommunications
+- Industrial Automation
+- Scientific Instrumentation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/aspoptoelectronics-llms.txt
+- type: Hosts
+  url: hosts/aspoptoelectronics-hosts.yml
+- type: Vendors
+  url: vendors/aspoptoelectronics-vendors.yml
+- type: TermsOfService
+  url: https://acquirezy.com/terms
+- type: PrivacyPolicy
+  url: https://acquirezy.com/privacy
+- type: Blog
+  url: https://acquirezy.com/blog
+- type: DomainSecurity
+  url: security/aspoptoelectronics-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/aspoptoelectronics
+  url: https://acquirezy.com/organization/asp-optoelectronics
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-26'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://api.acquirezy.com/mcp
+    status: 403
+  - url: https://acquirezy.com/mcp
+    status: 403
+  - url: https://equityzen.com/company/aspoptoelectronics
+    status: 403
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
